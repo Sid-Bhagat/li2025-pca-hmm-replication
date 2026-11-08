@@ -1,0 +1,45 @@
+{
+  "data_dir": "data",
+  "seed": 42,
+  "pca_set": "original",
+  "pca_series": {
+    "SP500": "^GSPC",
+    "NASDAQ": "^IXIC",
+    "RATE_10Y": "^TNX",
+    "RATE_13W": "^IRX",
+    "GOLD": "GC=F",
+    "CRUDE_OIL": "CL=F",
+    "USD_INDEX": "DX-Y.NYB"
+  },
+  "momentum": "li",
+  "n_pcs": 4,
+  "pca_cumulative_variance": 0.8429169941945578,
+  "weeks_per_ticker": {
+    "AMZN": 522,
+    "AAPL": 522,
+    "GOOGL": 522,
+    "META": 522,
+    "MSFT": 522,
+    "NVDA": 522,
+    "TSLA": 522,
+    "^GSPC": 522,
+    "^IXIC": 522,
+    "^TNX": 522,
+    "^IRX": 522,
+    "GC=F": 522,
+    "CL=F": 522,
+    "DX-Y.NYB": 522
+  },
+  "first_week": "2015-01-01",
+  "last_week": "2024-12-26",
+  "python": "3.12.3",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "hmmlearn": "0.3.3",
+    "sklearn": "1.9.1",
+    "statsmodels": "0.15.0",
+    "yfinance": "1.7.0",
+    "matplotlib": "3.11.2"
+  }
+}
