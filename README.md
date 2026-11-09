@@ -55,7 +55,8 @@ The first version of this replication (September 2026) used 7 PCA series: ^GSPC,
 Requires [uv](https://docs.astral.sh/uv/) and Python 3.12.
 
 ```bash
-cd li_replication
+git clone https://github.com/Sid-Bhagat/li2025-pca-hmm-replication.git
+cd li2025-pca-hmm-replication
 uv venv --python 3.12
 uv pip install -r requirements.txt
 ```
